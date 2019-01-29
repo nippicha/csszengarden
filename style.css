@@ -1,0 +1,216 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - 
+http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, 
+but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely 
+want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same 
+folder as the images. ie. no paths. */
+
+
+/* basic elements */
+@import url('https://fonts.googleapis.com/css?family=Dosis|Open+Sans+Condensed:300|Oswald|PT+Sans+Narrow');
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Dosis', sans-serif;
+	line-height: 1.2;
+	color: #3d6e8d;  
+	margin: 0; 
+	padding: 0;
+	}
+p { 
+	margin: 0; 
+	padding: 0;
+	text-align: justify;
+	}
+h3 { 
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Dosis', sans-serif;
+	font-family: 'PT Sans Narrow', sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 5px; 
+	color: #e96060;
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #5a6e5a;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #8bbab4;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+	}
+abbr {
+	border-bottom: none;
+	}
+
+.page-wrapper { 
+	background: #b2d3e1; 
+	padding: 0px 0px 10px 110px;  
+	margin: 0; 
+	position: relative;
+	}
+
+.intro { 
+	min-width: 470px;
+	width: 100%;
+	}
+
+header h1 { 
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Dosis', sans-serif;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 100px;
+	margin: 25px 0 0px 25px;
+	padding-left: 15px;
+	background: #d65353;
+	color: #f7c45f;
+	border-radius: 20px 0 0 0;
+	}
+
+header h2 { 
+	margin: 0 0 25px 25px; 
+	background: #d65353;
+	color: #f7c45f;
+	border-radius: 0 0 0 20px; 
+	padding-bottom: 10px;
+    padding-left: 15px;
+	}
+
+header {
+	padding-top: 20px;
+	height: 87px;
+}
+
+.summary {
+	clear: both; 
+	margin: 100px 20px 20px 10px; 
+	width: 160px; 
+	float: left;
+	}
+.summary p {
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Dosis', sans-serif;
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-align: center;
+	background: #f3cd86;
+	padding: 20px 10px 10px 10px;
+	color: #d65353;
+	margin: 20px 10px 10px 10px;
+	border-radius: 20px;
+ 	}
+
+.preamble {
+	clear: right; 
+	padding: 100px 400px 0 10px;
+	}
+.supporting {	
+	padding-left: 10px; 
+	margin-bottom: 40px;
+	padding: 0px 400px 0 10px;
+	}
+
+footer { 
+	margin: 50px 0 20px 0;
+	text-align: center;
+	}
+footer a:link, footer a:visited { 
+	margin-right: 20px; 
+	}
+
+.sidebar {
+	margin-left: 600px; 
+	position: absolute;
+	top: 0; 
+	right: 0;
+	}
+.sidebar .wrapper { 
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Dosis', sans-serif;
+	background: #4c8184 top left repeat-y; 
+	padding: 10px; 
+	margin: 220px 30px 0 0; 
+	border-radius: 20px;
+	}
+.sidebar h3.select { 
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Dosis', sans-serif; 
+	margin: 10px 0 5px 0; 
+	width: 80px; 
+	color: #eeab73;
+
+	white-space: nowrap;
+	text-align: center;
+	}
+.sidebar h3.archives { 
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Dosis', sans-serif; 
+	margin: 25px 0 5px 0; 
+	width:57px; 
+	color: #eeab73;
+
+	white-space: nowrap;
+	text-align: center;
+	}
+.sidebar h3.resources { 
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Dosis', sans-serif; 
+	margin: 25px 0 5px 0; 
+	width:63px;
+	color: #eeab73; 
+
+	white-space: nowrap;
+	text-align: center;
+	}
+
+.sidebar ul {
+	margin: 0 10px 0 10px;
+	padding: 0;
+	}
+.sidebar li {
+	line-height: 1.3em; 
+	color: #c4deee; 
+	display: block; 
+	padding-top: 5px; 
+	margin-bottom: 5px;
+	list-style-type: none;
+	}
+.sidebar li a:link {
+	color: #8bbab4;
+	}
+.sidebar li a:visited {
+	color: #80d4c8;
+	}
+div.participation {
+    margin: 20px 0px 0 0;
+    padding: 1px 25px 30px 20px;
+    background: #ccda9c;
+    border-radius: 20px;
+}
+section.intro div.participation{
+	background: rgba(255,255,255,0.9);
+	margin-left: -30%;
+    padding: 5% 5% 5% 30%;
+    border-radius: 20px;
+}
