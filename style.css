@@ -1,18 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis|Open+Sans+Condensed:300|Oswald|PT+Sans+Narrow');
-@mixin zebra-shadow($size, $colors) {
-  $text-shadow: ();
-  @for $i from 1 through length($colors) {
-    @for $j from 0 through $size {
-      $pos: (($i - 1) * $size + $j) * 1px;
-      $text-shadow: append(
-        $text-shadow,
-        $pos $pos nth($colors, $i),
-        'comma'
-      );
-    }
-  }
-  text-shadow: $text-shadow;
-}
 body { 
 	font-family: 'Oswald', sans-serif;
 	font-family: 'Open Sans Condensed', sans-serif;
